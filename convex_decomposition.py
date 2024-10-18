@@ -15,7 +15,7 @@ from mathutils import Vector, Matrix
 
 bl_info = {
     'name': 'CoACD Convex Decomposition',
-    'blender': (4, 1, 0),
+    'blender': (4, 2, 0),
     'category': 'Object',
     'version': (1, 0, 0),
     'author': 'Tom Bourjala',
