@@ -6,6 +6,8 @@ This approach enhances collision detection and object interaction by preserving 
 
 ![avatar](coacd-preview.png)
 
+*This addon builds on the now outdated [Blender Convex Decomposition addon](https://github.com/olitheolix/blender-convex-decomposition) by Oliver Nagy.*
+
 ## Installation
 Grab (or build) the binaries for [CoACD](https://github.com/SarahWeiii/CoACD) from their repository.
 
