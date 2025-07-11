@@ -17,7 +17,7 @@ bl_info = {
     'name': 'CoACD Convex Decomposition',
     'blender': (4, 2, 0),
     'category': 'Object',
-    'version': (1, 0, 0),
+    'version': (1, 0, 1),
     'author': 'Tom Bourjala',
     'description': 'Create collision shapes using CoACD',
     'warning': 'WIP',
@@ -684,11 +684,11 @@ class ConvexDecompositionPropertiesCoACD(bpy.types.PropertyGroup):
         description=(
             "Resolution used during manifold pre-processing. Higher values produce a mesh closer "
             "to the original but may increase triangle count and computation time. "
-            "Range: 20 to 100. Default: 50"
+            "Range: 20 to 500. Default: 50"
         ),
         default=50,
         min=20,
-        max=100,
+        max=500,
         subtype='UNSIGNED'
     )
     i_resolution: bpy.props.IntProperty(
